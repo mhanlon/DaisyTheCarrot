@@ -18,7 +18,10 @@ This branch adds UI elements in the LiveView.storyboard.
 
 We added a button to show off IBActions, a label, and an image view. We've also added two images to the Assets.xcassets catalog. IBOutlets and IBActions have been wired up and we can view this work of beauty in the LiveViewTestApp target in the simulator.
 
+### `playground-groundwork`
+This branch includes some common code I use all the time in my playground books. It's in the cleverly named `Common.swift` file in the BookCore module.
 
+It also includes a change to the name in the ManifestPlist.strings file so that our playground name will be correct in the Swift Playgrounds app. I also renamed the first page and added one small bit of code to the main.swift.
 
 ---
 
