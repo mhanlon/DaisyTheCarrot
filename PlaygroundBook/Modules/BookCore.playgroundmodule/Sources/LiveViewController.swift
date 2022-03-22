@@ -32,7 +32,16 @@ public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHand
         // Implement this method to receive messages sent from the process running Contents.swift.
         // This method is *required* by the PlaygroundLiveViewMessageHandler protocol.
         // Use this method to decode any messages sent as PlaygroundValue values and respond accordingly.
+        guard case .dictionary(let dictionary) = message else {
+            return
+        }
+
+        if case .string(let message) = dictionary[kMessageKey] {
+            speechLabel.text = message
+            daisyImageView.image = UIImage(named:"daisy-colored")
+        }
     }
+
     @IBAction func greetButtonTapped(_ sender: Any) {
         print("Hello!")
     }

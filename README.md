@@ -23,6 +23,13 @@ This branch includes some common code I use all the time in my playground books.
 
 It also includes a change to the name in the ManifestPlist.strings file so that our playground name will be correct in the Swift Playgrounds app. I also renamed the first page and added one small bit of code to the main.swift.
 
+### `handling-messages`
+Now we implement some code in our `receive(_:)` method of our LiveViewController.swift.
+
+This code uses a cool mechanism for accessing associated values with enums, namely that `PlaygroundValue` type we use a lot in playgrounds.
+
+And we basically take the message we're sent and put it in the speech label's text property.
+
 ---
 
 #  Playground Book Xcode Project #
