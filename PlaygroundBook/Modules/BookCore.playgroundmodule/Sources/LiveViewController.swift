@@ -19,6 +19,11 @@ public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHand
         // The connection will be opened when the process running Contents.swift starts running and listening for messages.
     }
     */
+    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        self.speechLabel.text = "" // blank out our speech label when the view is loaded.
+    }
 
     /*
     public func liveViewMessageConnectionClosed() {
