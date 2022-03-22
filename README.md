@@ -33,6 +33,10 @@ And we basically take the message we're sent and put it in the speech label's te
 ### `code-completion`
 We add a function that maybe speaks a little more to our audience and our purpose, here. We also take advantage of the code-completion directive to make our commands on a page instantly obvious to the learner.
 
+### `new-page`
+We now have two pages, a link from the first to the second (and back!), and some special behavior in the second that we had to enable with some code modifications to the LiveViewController.swift, as well as the LiveView.swift in our second page.
+
+
 ---
 
 #  Playground Book Xcode Project #
