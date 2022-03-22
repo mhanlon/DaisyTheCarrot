@@ -13,3 +13,6 @@ Contains English localizations of values in Manifest.plist files in the playgrou
 
 /* The localized name of the first page in the first chapter in the playground book. */
 "ChapterOnePageOneName" = "Color Daisy";
+
+/* The localized name of the second page in the first chapter in the playground book. */
+"ChapterOnePageTwoName" = "What's next?";

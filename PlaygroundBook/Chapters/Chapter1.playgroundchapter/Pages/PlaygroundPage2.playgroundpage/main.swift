@@ -18,5 +18,5 @@ func daisySays(_ message: String) {
 
 
 
-//: Now let's go to the next page!
-//: [Next](@next)
+//: Forgot something? Head back to the previous page!
+//: [Previous](@previous)
