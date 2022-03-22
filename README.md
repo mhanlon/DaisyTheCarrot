@@ -30,6 +30,9 @@ This code uses a cool mechanism for accessing associated values with enums, name
 
 And we basically take the message we're sent and put it in the speech label's text property.
 
+### `code-completion`
+We add a function that maybe speaks a little more to our audience and our purpose, here. We also take advantage of the code-completion directive to make our commands on a page instantly obvious to the learner.
+
 ---
 
 #  Playground Book Xcode Project #
