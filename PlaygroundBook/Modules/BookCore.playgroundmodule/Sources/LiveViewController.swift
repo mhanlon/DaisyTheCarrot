@@ -13,6 +13,7 @@ import PlaygroundSupport
 public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
     @IBOutlet var speechLabel: UILabel!
     @IBOutlet var daisyImageView: UIImageView!
+    public var daisyImage = UIImage(named: "daisy-uncolored")
     /*
     public func liveViewMessageConnectionOpened() {
         // Implement this method to be notified when the live view message connection is opened.
@@ -23,6 +24,7 @@ public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHand
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.speechLabel.text = "" // blank out our speech label when the view is loaded.
+        self.daisyImageView.image = self.daisyImage
     }
 
     /*

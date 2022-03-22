@@ -17,6 +17,3 @@ func daisySays(_ message: String) {
 //#-end-hidden-code
 
 
-
-//: Now let's go to the next page!
-//: [Next](@next)
