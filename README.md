@@ -4,6 +4,22 @@ This is a sample project using the Swift Playgrounds Author Template to build a 
 
 I've left the instructions that come with the author template below. Check out various branches for steps along the way!
 
+## Branches
+### `starting-point`
+This is the Plain Jane Author Template
+
+
+### `name-change`
+We make a small adjustment to the BuildSettings.xcconfig to make this playground book our own.
+
+
+### `ui-work`
+This branch adds UI elements in the LiveView.storyboard.
+
+We added a button to show off IBActions, a label, and an image view. We've also added two images to the Assets.xcassets catalog. IBOutlets and IBActions have been wired up and we can view this work of beauty in the LiveViewTestApp target in the simulator.
+
+
+
 ---
 
 #  Playground Book Xcode Project #
